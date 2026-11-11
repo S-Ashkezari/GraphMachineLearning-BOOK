@@ -1,0 +1,731 @@
+[
+  {
+    "file": "chapter_02/example_2_2_2_dfs.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "['a', 'b', 'd', 'i', 'j', 'e', 'c', 'f', 'g', 'h']\n",
+    "stderr": "",
+    "seconds": 1.063,
+    "source_sha256": "4aaf3a0eb411e8cbecb08d4c20f4039fa0cb4ea3b7ff351da71b369edfcd7921"
+  },
+  {
+    "file": "chapter_02/example_2_2_4_bfs.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "['a', 'b', 'c', 'd', 'e', 'f', 'i', 'j', 'g', 'h']\n",
+    "stderr": "",
+    "seconds": 1.063,
+    "source_sha256": "6e42f8eacfcae45f0d4529a303b0f4b534da6d4bb6ba7b8ec619991704b91d1c"
+  },
+  {
+    "file": "chapter_02/example_2_2_6_floyd_warshall.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Shortest distance from a to a = 0\nShortest distance from a to b = 3\nShortest distance from a to c = 1\nShortest distance from a to d = 3\nShortest distance from b to b = 0\nShortest distance from b to a = 3\nShortest distance from b to c = 4\nShortest distance from b to d = 5\nShortest distance from c to c = 0\nShortest distance from c to a = 1\nShortest distance from c to b = 4\nShortest distance from c to d = 2\nShortest distance from d to d = 0\nShortest distance from d to b = 5\nShortest distance from d to c = 2\nShortest distance from d to a = 3\n",
+    "stderr": "",
+    "seconds": 1.063,
+    "source_sha256": "04e1bec7ca0e482ada9f97d904d3e7adab554d5b1219b1b653b6f7c0fbaa6b87"
+  },
+  {
+    "file": "chapter_02/example_2_2_7_dijkstra.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Shortest distance from a to a = 0\nShortest distance from a to c = 1\nShortest distance from a to b = 3\nShortest distance from a to d = 3\n",
+    "stderr": "",
+    "seconds": 0.968,
+    "source_sha256": "e103387aafd86f592aff9e788d7080c8d22f5706d4fd09be72d02898462c07ca"
+  },
+  {
+    "file": "chapter_02/example_2_2_8_prim.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Edges in the Minimum Spanning Tree:\na -- b  (weight = 3)\na -- c  (weight = 1)\nc -- d  (weight = 2)\n",
+    "stderr": "",
+    "seconds": 0.968,
+    "source_sha256": "051db32bb16a8b8b74bfc8c3dc5a5ab494f0d056ccd05100ac589f24e098d0e4"
+  },
+  {
+    "file": "chapter_02/example_2_3_1_karate_metrics.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "                       Metric     Value\n0  Characteristic Path Length  2.408200\n1           Global Efficiency  0.492008\n2            Local Efficiency  0.645127\n3          Average Clustering  0.570638\n4                Transitivity  0.255682\n5                  Modularity  0.410965\n6        Degree Assortativity -0.475613\n",
+    "stderr": "",
+    "seconds": 3.031,
+    "source_sha256": "d99723591e125232a119775bc2ebdec201557d349ff05544713af09036fc322e"
+  },
+  {
+    "file": "chapter_02/example_2_4_1_louvain.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Communities:\nNode 1: Community 0\nNode 2: Community 0\nNode 3: Community 0\nNode 4: Community 1\nNode 5: Community 1\n",
+    "stderr": "",
+    "seconds": 1.172,
+    "source_sha256": "5008f48f692872795e957f0b2104c7a4429ab0a3b5d0ea8591dfb0b1255cc5fc"
+  },
+  {
+    "file": "chapter_02/example_2_4_2_label_propagation.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Communities:\n[1, 2, 3, 4, 5]\n",
+    "stderr": "",
+    "seconds": 0.954,
+    "source_sha256": "b6adb05f2db6651a56087b68c6d02fe296e3aeb117d677bd0e5ce20545b959a2"
+  },
+  {
+    "file": "chapter_02/example_2_4_3_girvan_newman.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Communities:\n[1, 2, 3]\n[4, 5]\n",
+    "stderr": "",
+    "seconds": 0.921,
+    "source_sha256": "cb1107dbb5bd26c4176d24c5993ecde0122d38cd230b666371068bef125a642a"
+  },
+  {
+    "file": "chapter_03/example_3_10_1_erdos_renyi.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 2.375,
+    "source_sha256": "df03c8dd9f31a63bcad6bb2e3e57b68093457300cdf786667a4868e7a726de80"
+  },
+  {
+    "file": "chapter_03/example_3_10_2_watts_strogatz.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Number of nodes: 20\nNumber of edges: 40\nAverage clustering coefficient: 0.165\nAverage shortest path length: 2.1368\n",
+    "stderr": "<repository>\\chapter_03\\example_3_10_2_watts_strogatz.py:49: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.\n  plt.tight_layout()\n",
+    "seconds": 2.813,
+    "source_sha256": "9af137f724198633a61a922ab74682e61d5ceb36a3dec17c15db44f0c6f34f08"
+  },
+  {
+    "file": "chapter_03/example_3_10_3_barabasi_albert.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Number of nodes: 100\nNumber of edges: 196\nAverage degree: 3.92\n",
+    "stderr": "<repository>\\chapter_03\\example_3_10_3_barabasi_albert.py:33: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.\n  plt.tight_layout()\n",
+    "seconds": 3.984,
+    "source_sha256": "06d26fdcd9dca5eeeb0b6a03e63832204bd4bc8e58a697c2c8fa8ae09fcf4b9e"
+  },
+  {
+    "file": "chapter_03/example_3_10_4_stochastic_block_model.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Number of nodes: 60\nNumber of edges: 354\n",
+    "stderr": "",
+    "seconds": 3.078,
+    "source_sha256": "daddc4d3ff61f866653a1fb49b06eb4cebccf05af858f0a53cdd810b2490a06e"
+  },
+  {
+    "file": "chapter_05/example_5_2_2_transition_svd.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Matrix P:\n [[0.  0.5 0.5 0. ]\n [0.5 0.  0.  0.5]\n [1.  0.  0.  0. ]\n [0.  1.  0.  0. ]]\n\nMatrix P^2:\n [[0.75 0.   0.   0.25]\n [0.   0.75 0.25 0.  ]\n [0.   0.5  0.5  0.  ]\n [0.5  0.   0.   0.5 ]]\n\nY_s^(1):\n [[ 0.00000000e+00  5.62341325e-01]\n [-5.62341325e-01  8.90651522e-17]\n [-9.09887377e-01 -5.93767681e-17]\n [ 0.00000000e+00  9.09887377e-01]]\n\nY_s^(2):\n [[-0.76182285  0.        ]\n [ 0.         -0.76182285]\n [ 0.         -0.67252367]\n [-0.67252367  0.        ]]\n\nFinal Embedding Y_s:\n [[ 0.00000000e+00  5.62341325e-01 -7.61822854e-01  0.00000000e+00]\n [-5.62341325e-01  8.90651522e-17  0.00000000e+00 -7.61822854e-01]\n [-9.09887377e-01 -5.93767681e-17  0.00000000e+00 -6.72523669e-01]\n [ 0.00000000e+00  9.09887377e-01 -6.72523669e-01  0.00000000e+00]]\n",
+    "stderr": "",
+    "seconds": 0.422,
+    "source_sha256": "bd6c151d695de1f3f297d90643d05f126f0cb6faea5aea71231e478244f9dd4a"
+  },
+  {
+    "file": "chapter_05/example_5_2_4_node2vec.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 5.359,
+    "source_sha256": "bdb01a300bc40dee05f7353c19491305912c976bf89f4ff103bec58ef1989626"
+  },
+  {
+    "file": "chapter_06/example_6_2_1_random_forest.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Accuracy: 0.82\n",
+    "stderr": "",
+    "seconds": 4.922,
+    "source_sha256": "76d118103cf003f2c06e1e7ae43541d3d05f2ba25c6394f67ad0fd332d2b3695"
+  },
+  {
+    "file": "chapter_07/example_7_4_1_gcn.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Test accuracy: 0.8571\n",
+    "stderr": "",
+    "seconds": 10.188,
+    "source_sha256": "03369090b28d55bacd8825428aa8cb456d84f79a0a76da9fac9247a49e6fd9a1"
+  },
+  {
+    "file": "chapter_07/example_7_5_2_mpnn.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Test accuracy: 0.8571\n",
+    "stderr": "",
+    "seconds": 12.766,
+    "source_sha256": "23a6082c38f9795034ddd123bb7e0a04bf965d4532eef9a2ac8c854e8a89ea0c"
+  },
+  {
+    "file": "chapter_01/example_1_2_1_complete_bipartite.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "X: ['u', 'v', 'w', 'x'] Y: ['y', 'z']\nEdges: [('u', 'y'), ('u', 'z'), ('v', 'y'), ('v', 'z'), ('w', 'y'), ('w', 'z'), ('x', 'y'), ('x', 'z')]\n",
+    "stderr": "",
+    "seconds": 1.422,
+    "source_sha256": "cc1ba642a0fc8cc9fb5b80bc2cf7117170619e2f6d7b4853b6a3d83210266e5a"
+  },
+  {
+    "file": "chapter_01/example_1_2_3_directed_undirected.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Undirected edges: [('u', 'v'), ('u', 'w'), ('v', 'w')]\nDirected arcs: [('u', 'v'), ('v', 'w'), ('w', 'u')]\nReverse adjacency v->u: True False\n",
+    "stderr": "",
+    "seconds": 4.609,
+    "source_sha256": "0eef872a10dc58a309d81c572e586b06215d5727b8d603418eb3548d46e68439"
+  },
+  {
+    "file": "chapter_01/example_1_2_4_paths_cycles_dag.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Directed path: [0, 1, 2, 3]\nDirected cycle: [[0, 1, 2, 3]]\nPath is DAG: True\n",
+    "stderr": "",
+    "seconds": 4.719,
+    "source_sha256": "cae381cbe61caff2e0bc651b1a6d2e5cf47a7a3dd83bfc605fe96531907ae3d0"
+  },
+  {
+    "file": "chapter_01/example_1_3_1_adjacency_distance.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Row/column order: ['u', 'v', 'w', 'x', 'y']\nA =\n [[0 1 1 0 0]\n [1 0 0 0 0]\n [0 0 0 1 0]\n [0 1 0 0 1]\n [0 0 0 1 0]]\nD =\n [[0 1 1 2 3]\n [1 0 2 3 4]\n [3 2 0 1 2]\n [2 1 3 0 1]\n [3 2 4 1 0]]\nu : ['v', 'w']\nv : ['u']\nw : ['x']\nx : ['v', 'y']\ny : ['x']\n",
+    "stderr": "",
+    "seconds": 3.0,
+    "source_sha256": "8a888cf9153e5bbebe82d980b7fb4c2b3476b14deb3b962cb617f1f0a3c4bba3"
+  },
+  {
+    "file": "chapter_02/example_2_2_1_dfs_orders.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "['a', 'b', 'd', 'i', 'j', 'e', 'c', 'f', 'g', 'h']\n['a', 'c', 'f', 'h', 'g', 'b', 'e', 'j', 'i', 'd']\n",
+    "stderr": "",
+    "seconds": 3.813,
+    "source_sha256": "e782d075f64dc44b47af6546c8937355e0a1cc9c925d6596cea0af5dd5b4d011"
+  },
+  {
+    "file": "chapter_02/example_2_2_3_bfs_orders.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "['a', 'b', 'c', 'd', 'e', 'f', 'i', 'j', 'g', 'h']\n['a', 'c', 'b', 'f', 'e', 'd', 'h', 'g', 'j', 'i']\n",
+    "stderr": "",
+    "seconds": 3.734,
+    "source_sha256": "1ed0385db4834b225b5faff9308bd2d9f1df6ae949e2720fe6c3af5dcd737e17"
+  },
+  {
+    "file": "chapter_02/example_2_2_9_pagerank_limit.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "1 {'A': 0.2, 'B': 0.115, 'C': 0.625, 'D': 0.03, 'E': 0.03}\n2 {'A': 0.56125, 'B': 0.115, 'C': 0.26375, 'D': 0.03, 'E': 0.03}\n3 {'A': 0.2541875, 'B': 0.26853125, 'C': 0.41728125, 'D': 0.03, 'E': 0.03}\n4 {'A': 0.38468906, 'B': 0.13802969, 'C': 0.41728125, 'D': 0.03, 'E': 0.03}\nLimit: {'A': 0.3633691351045787, 'B': 0.18443188241944591, 'C': 0.39219898247597496, 'D': 0.03, 'E': 0.03}\nC-A: 0.028829847371396267\n",
+    "stderr": "",
+    "seconds": 2.844,
+    "source_sha256": "6d23f188482c300c44e7c45d6fb203f947f80cdfb3238cec34e5b39e72069c4c"
+  },
+  {
+    "file": "chapter_02/example_2_2_10_hits.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Vertex order: ('P', 'Q', 'R', 'S', 'T', 'U')\nIteration 1: authority=[0.       0.       0.894427 0.447214 0.       0.      ], hub=[0.588348 0.588348 0.       0.       0.392232 0.392232]\nIteration 2: authority=[0.       0.       0.857493 0.514496 0.       0.      ], hub=[0.599625 0.599625 0.       0.       0.374766 0.374766]\nIteration 3: authority=[0.       0.       0.851658 0.524097 0.       0.      ], hub=[0.601228 0.601228 0.       0.       0.372189 0.372189]\nAll three iterations and stated rankings verified.\n",
+    "stderr": "",
+    "seconds": 0.922,
+    "source_sha256": "a41085fc14f5769d1fb7a5500a3bef0b14ccd4bd6e377cdf865b9f6bdf2568b5"
+  },
+  {
+    "file": "chapter_02/example_2_5_1_transactional_support.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Support: 3 Relative support: 1.0\n",
+    "stderr": "",
+    "seconds": 4.047,
+    "source_sha256": "18cbb9e599cc4b85a14b1b4a097030b5567dbb599cbb91e180f643fc5cac3420"
+  },
+  {
+    "file": "chapter_02/example_2_5_2_frequent_subgraphs.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "K2: 4 edge-subset occurrences; transactional support = 1\nP3: 4 edge-subset occurrences; transactional support = 1\nP4: 2 edge-subset occurrences; transactional support = 1\nK1,3: 1 edge-subset occurrences; transactional support = 1\nwhole tree: 1 edge-subset occurrences; transactional support = 1\nVerified: 15 nonempty edge subsets, 12 connected occurrences, 5 patterns.\n",
+    "stderr": "",
+    "seconds": 0.188,
+    "source_sha256": "8981f4773f68b577d4cfe67b91acef951f03b24f96594d94edf545509678ad07"
+  },
+  {
+    "file": "chapter_03/example_3_4_1_snapshots.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Day 1 edges [(0, 1), (1, 2)] degrees {0: 1, 1: 2, 2: 1, 3: 0}\nDay 2 edges [(0, 2), (2, 3)] degrees {0: 1, 1: 0, 2: 2, 3: 1}\nDay 3 edges [(0, 1), (0, 3)] degrees {0: 2, 1: 1, 2: 0, 3: 1}\n",
+    "stderr": "",
+    "seconds": 1.906,
+    "source_sha256": "10e29a7987a418133f30470fffe2a1133a2b121053ca45185acb992ad3645311"
+  },
+  {
+    "file": "chapter_03/example_3_4_2_event_stream.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Events: [('A', 'B', 1), ('B', 'C', 3), ('A', 'C', 4)]\nEarliest arrival from A: {'A': 0, 'B': 1, 'C': 3}\n",
+    "stderr": "",
+    "seconds": 0.156,
+    "source_sha256": "d124bead8e17ef8d4fd225f4e26a46a789d359becab082187c9a91b3ded377cf"
+  },
+  {
+    "file": "chapter_03/example_3_4_3_interval_edge.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "10:04: active = False\n10:05: active = True\n10:12: active = True\n10:15: active = True\n10:16: active = False\n",
+    "stderr": "",
+    "seconds": 0.172,
+    "source_sha256": "1fdf1960480b85732abcef4832bb27966b8aabd67d12edee0f0c976450bc6177"
+  },
+  {
+    "file": "chapter_03/example_3_9_1_global_change.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Edges before/after: 3 7 regularized z: 4.0\n",
+    "stderr": "",
+    "seconds": 3.765,
+    "source_sha256": "98ba7e7174c0bc40efdd6fe2175a8b5dc237ba444e44947a0d2954ec0708e93a"
+  },
+  {
+    "file": "chapter_03/example_3_9_2_node_change.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Degrees: {1: 1, 2: 2, 3: 2, 4: 2, 5: 1} {1: 2, 2: 2, 3: 4, 4: 2, 5: 2}\nEdges: 4 6\nz: 2.857142857142857\n",
+    "stderr": "",
+    "seconds": 1.75,
+    "source_sha256": "34d55d5094f1344956fe669b559a74535a0629b84a5e1116f8417fad96e3c38f"
+  },
+  {
+    "file": "chapter_03/example_3_9_3_triangle_change.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Triangles before: 0\nTriangles after: [(1, 2, 3), (2, 3, 4), (3, 4, 6), (4, 5, 6)]\n",
+    "stderr": "",
+    "seconds": 1.562,
+    "source_sha256": "f85d6e6f775a53961e3811a83dec35cbe89f079bd59eeb97af11d55b07e86a17"
+  },
+  {
+    "file": "chapter_03/example_3_9_4_embedding_drift.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Distance: 0.8485281374238571 Above threshold: True\n",
+    "stderr": "",
+    "seconds": 0.672,
+    "source_sha256": "9ca73c2ed34f680091211c45bd7d92e0df21a79d769dabf8691862a4b0abe783"
+  },
+  {
+    "file": "chapter_05/example_5_2_1_graph_factorization.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Observed-edge GF objective: 47.50184198603705 11.543589517879902\nClique node IDs: 0..9 and 14..23; bridge: 10..13\n",
+    "stderr": "",
+    "seconds": 4.047,
+    "source_sha256": "e9ad8a3c74c9fd0d69559977dbd8bf51c9f4aafb9825db7be4cfbf982326b8b7"
+  },
+  {
+    "file": "chapter_05/example_5_2_3_hope.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Katz low-rank error: 0.0520915748584022\n",
+    "stderr": "",
+    "seconds": 3.844,
+    "source_sha256": "803793dc2248822577b9611fb7ec1649ed9c196c1c26252c0e9a398d2184740b"
+  },
+  {
+    "file": "chapter_06/example_6_3_1_label_spreading.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Step 1 hard =\n [[1.  0. ]\n [0.5 0. ]\n [0.  0.5]\n [0.  1. ]] soft =\n [[0.2        0.        ]\n [0.56568542 0.        ]\n [0.         0.56568542]\n [0.         0.2       ]]\nStep 2 hard =\n [[1.   0.  ]\n [0.5  0.25]\n [0.25 0.5 ]\n [0.   1.  ]] soft =\n [[0.52       0.        ]\n [0.11313708 0.22627417]\n [0.22627417 0.11313708]\n [0.         0.52      ]]\nHard limit:\n [[0.66666667 0.33333333]\n [0.33333333 0.66666667]]\nSoft limit:\n [[0.34391534 0.08465608]\n [0.25440879 0.14965223]\n [0.14965223 0.25440879]\n [0.08465608 0.34391534]]\n",
+    "stderr": "",
+    "seconds": 0.703,
+    "source_sha256": "aee906676ff5e48f5ac41d7a80949e794aeef6789163975ccd2e2c46f898e78c"
+  },
+  {
+    "file": "chapter_07/example_7_2_1_laplacians.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "A =\n [[0. 1. 1.]\n [1. 0. 0.]\n [1. 0. 0.]]\nD =\n [[2. 0. 0.]\n [0. 1. 0.]\n [0. 0. 1.]]\nL =\n [[ 2. -1. -1.]\n [-1.  1.  0.]\n [-1.  0.  1.]]\nLsym =\n [[ 1.         -0.70710678 -0.70710678]\n [-0.70710678  1.          0.        ]\n [-0.70710678  0.          1.        ]]\nLrw =\n [[ 1.  -0.5 -0.5]\n [-1.   1.   0. ]\n [-1.   0.   1. ]]\n",
+    "stderr": "",
+    "seconds": 0.719,
+    "source_sha256": "217650916c8f079d066bffd2749c8366ecee44de67a961f07b30a55da819a401"
+  },
+  {
+    "file": "chapter_07/example_7_5_1_message_passing.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Neighbor sum: [0. 1. 1.]\nSelf + neighbor sum: [1. 1. 1.]\nSecond step: [3. 2. 2.]\n",
+    "stderr": "",
+    "seconds": 0.688,
+    "source_sha256": "a84d8f169db0868af60211e96a6034f3832fac391f0339c40010d45145e5b62f"
+  },
+  {
+    "file": "chapter_07/example_7_6_1_wl_limit.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "1 [Counter({0: 6}), Counter({0: 6})]\n2 [Counter({0: 6}), Counter({0: 6})]\n3 [Counter({0: 6}), Counter({0: 6})]\n",
+    "stderr": "",
+    "seconds": 1.656,
+    "source_sha256": "c7e07be1a0a872f91ce9de13b14ba0db74cb4b6fbb66b2dbd9175871d3b5ae50"
+  },
+  {
+    "file": "chapter_07/example_7_6_2_sum_mean.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Means: 1.0 1.0\nSums: 2.0 3.0\nCounterexample to general injectivity of sum: 4 4\n",
+    "stderr": "",
+    "seconds": 0.765,
+    "source_sha256": "46f9765f207acecb606964888833ed82df074e1b7f414b571c4100751504f938"
+  },
+  {
+    "file": "chapter_07/example_7_7_1_bottleneck.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Depth 1 two trees nodes 6 fixed representation dimension 8\nDepth 2 two trees nodes 14 fixed representation dimension 8\nDepth 3 two trees nodes 30 fixed representation dimension 8\nDepth 4 two trees nodes 62 fixed representation dimension 8\nDepth 5 two trees nodes 126 fixed representation dimension 8\n",
+    "stderr": "",
+    "seconds": 1.813,
+    "source_sha256": "1a1a005d7dd47665cba7b1bc3e419a25a79b3a5e71770a6b2932cc0d21c97743"
+  },
+  {
+    "file": "chapter_07/example_7_9_1_attention.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Attention: [0.73105858 0.26894142]\nWeighted contributions: [[0.07310586 0.        ]\n [0.         2.68941421]]\nOutput: [0.07310586 2.68941421]\n",
+    "stderr": "",
+    "seconds": 0.765,
+    "source_sha256": "648089aa2bec966034502b31ad9a6c75e76634feb448f21031941eea3e942cc1"
+  },
+  {
+    "file": "chapter_07/example_7_9_2_temporal_memory.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Time 1.0 memory {'u': 1.0, 'v': 1.0, 'w': 0.0}\nTime 2.0 memory {'u': 1.3678794411714423, 'v': 1.3678794411714423, 'w': 0.0}\nTime 3.0 memory {'u': 1.3678794411714423, 'v': 1.5032147244080551, 'w': 1.0}\n",
+    "stderr": "",
+    "seconds": 0.75,
+    "source_sha256": "ffe8c04ee9bb14f1715e1cbd8c1d4b9be771a7d0c3580807b6eaae7c1b8ed322"
+  },
+  {
+    "file": "chapter_07/example_7_9_3_pooling.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Pooled adjacency:\n [[6. 1.]\n [1. 6.]]\nPooled features:\n [[ 6.  9.]\n [24. 27.]]\n",
+    "stderr": "",
+    "seconds": 3.61,
+    "source_sha256": "a42a3b2c55d17f31a5b6b85a45230c3a73cdf6957b3ebde01d2fc90ccd970dcd"
+  },
+  {
+    "file": "chapter_01/section_1_4_linear_algebra.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Eigenvalues: [1. 3.]\nEigenvectors (columns):\n [[-0.70710678  0.70710678]\n [ 0.70710678  0.70710678]]\nCharacteristic polynomial coefficients: [ 1. -4.  3.]\n",
+    "stderr": "",
+    "seconds": 0.766,
+    "source_sha256": "b5237f5a9ed9b998657ce372fc2e27fa4ca09ff88d1b4be325a6a317caaa8aa1"
+  },
+  {
+    "file": "chapter_01/exercise_02_neighborhood_degree.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Open: ['b', 'c', 'd']\nClosed: ['a', 'b', 'c', 'd']\nDegree(a), delta, Delta: 3 1 3\n",
+    "stderr": "",
+    "seconds": 3.515,
+    "source_sha256": "0df4ed0a18cebcaf144e6d9cdbebefe5678eb983a3645e88f9d0d2f95baa8dd0"
+  },
+  {
+    "file": "chapter_01/exercise_04_isomorphism.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Isomorphism: {0: 2, 1: 0, 2: 3, 3: 1}\nC4 isomorphic to path P4: False\n",
+    "stderr": "",
+    "seconds": 1.562,
+    "source_sha256": "c05f1dea3674db708605bd0a5f37933b4226beca77a479ae6f6d0b817b60f9d4"
+  },
+  {
+    "file": "chapter_01/exercise_05_induced_subgraph.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Induced edges: [(0, 1), (0, 2), (1, 2)]\nNon-induced edges: [(0, 1), (1, 2)]\n",
+    "stderr": "",
+    "seconds": 1.672,
+    "source_sha256": "fb89024976458d04b720272eca2c651a5ae61eabbab0622d2d98c144c659a030"
+  },
+  {
+    "file": "chapter_01/exercise_06_distances.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Path 0 to 4: [0, 1, 2, 3, 4]\nDistance: 4\nDiameter: 5\n",
+    "stderr": "",
+    "seconds": 1.656,
+    "source_sha256": "7d4e8e3cb440e88a0a71cdad1568aae8edbd02cbc00086a7757d76721f5ff098"
+  },
+  {
+    "file": "chapter_02/exercise_02_queue_stack_trace.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "BFS queue before pop: [0]\nBFS queue before pop: [1, 2]\nBFS queue before pop: [2, 3, 4]\nBFS queue before pop: [3, 4, 5, 6]\nBFS queue before pop: [4, 5, 6]\nBFS queue before pop: [5, 6]\nBFS queue before pop: [6]\nDFS stack before pop: [0]\nDFS stack before pop: [2, 1]\nDFS stack before pop: [2, 4, 3]\nDFS stack before pop: [2, 4]\nDFS stack before pop: [2]\nDFS stack before pop: [6, 5]\nDFS stack before pop: [6]\n",
+    "stderr": "",
+    "seconds": 0.172,
+    "source_sha256": "edcabc1db374ecd1e65ae9735f1fe0c0b45e7235f759b10cbcb0c084dfe8c951"
+  },
+  {
+    "file": "chapter_02/exercise_04_negative_edge.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Label-setting result: {'s': 0, 'a': 1, 'b': 2}\nBellman-Ford: {'s': 0, 'a': -1, 'b': 2}\n",
+    "stderr": "",
+    "seconds": 1.672,
+    "source_sha256": "a99a639c1402597a2417988705defd62f2d35e3e4c882ca4ba276bf5a6be45b8"
+  },
+  {
+    "file": "chapter_02/exercise_07_multiple_msts.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Equal-weight spanning trees: [((0, 1), (0, 3), (1, 2)), ((0, 1), (0, 3), (2, 3)), ((0, 1), (1, 2), (2, 3)), ((0, 3), (1, 2), (2, 3))]\n",
+    "stderr": "",
+    "seconds": 1.625,
+    "source_sha256": "ec84f223928841eae2bedbc78c4fdf9c48fd7e606415905daee2e0e48bd75aa5"
+  },
+  {
+    "file": "chapter_02/exercise_10_graph_metrics.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Degrees: {0: 2, 1: 2, 2: 2, 3: 2, 4: 2, 5: 2}\nMean distance: 1.8\nDiameter: 3\n",
+    "stderr": "",
+    "seconds": 1.672,
+    "source_sha256": "bc482e54d7d82c5aebf216bf132dd562e6a8aa2665fb5a66319e3a4ed2d86a90"
+  },
+  {
+    "file": "chapter_03/exercise_02_temporal_path.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Static path: ['A', 'B', 'C']\nTemporal arrival: {'A': 0, 'B': 3}\n",
+    "stderr": "",
+    "seconds": 3.391,
+    "source_sha256": "131635882663a0546c6872054ad3870cfa64270aec096336e4bb4bbba0adfd0e"
+  },
+  {
+    "file": "chapter_03/exercise_03_moving_average.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "t: 4 past mean: 3.5 z: -0.5 alarm: False\nt: 5 past mean: 3.5 z: 8.5 alarm: True\nt: 6 past mean: 5.5 z: -0.39735970711951313 alarm: False\n",
+    "stderr": "",
+    "seconds": 0.703,
+    "source_sha256": "1a43934d446d6ee312fe99685a514c585ae05b43f9ccbd72d819827394bdda77"
+  },
+  {
+    "file": "chapter_03/exercise_15_community_comparison.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Louvain 5 modularity 0.31616709183673464\nLabel propagation 7 modularity 0.2066326530612245\nGirvan-Newman first split 2 modularity 0.06122448979591851\n",
+    "stderr": "",
+    "seconds": 3.844,
+    "source_sha256": "7a39d25e9c815c2f8cfcf6401c3fca3cfa9fe5c2f10f1e2e0f0afab936e39ca5"
+  },
+  {
+    "file": "chapter_04/section_4_2_1_bias_variance.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "{\n  \"1\": {\n    \"expected_train_mse\": 0.10103828125,\n    \"expected_test_mse\": 0.0967369651426844,\n    \"bias_squared\": 0.05365413437345362,\n    \"variance\": 0.00308283076923077,\n    \"noise_variance\": 0.04000000000000001\n  },\n  \"3\": {\n    \"expected_train_mse\": 0.033600000000000005,\n    \"expected_test_mse\": 0.045810850182562785,\n    \"bias_squared\": 8.67554979349164e-33,\n    \"variance\": 0.005810850182562774,\n    \"noise_variance\": 0.04000000000000001\n  },\n  \"11\": {\n    \"expected_train_mse\": 0.020800000000000006,\n    \"expected_test_mse\": 0.05856035893136191,\n    \"bias_squared\": 2.719933712996798e-32,\n    \"variance\": 0.018560358931361903,\n    \"noise_variance\": 0.04000000000000001\n  }\n}\n",
+    "stderr": "",
+    "seconds": 3.125,
+    "source_sha256": "f16035945de575fb0b970ad5f95a065bf83432fc9305a37a233c470e56a1c433"
+  },
+  {
+    "file": "chapter_04/section_4_2_2_loss_and_sgd.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Single losses: [ 1.  9. 25.] MSE: 11.666666666666666 Fitted theta: [1.0010076  1.99927376]\nCross entropy per sample: [0.22314355 0.10536052]\n",
+    "stderr": "",
+    "seconds": 0.797,
+    "source_sha256": "88cb49a699ff4f03339039e98608e88832a5920bd42b5c08c866f9c0e0a88c29"
+  },
+  {
+    "file": "chapter_04/section_4_4_1_convolution_pooling.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Input:\n[[ 1  2  3  4]\n [ 5  6  7  8]\n [ 9 10 11 12]\n [13 14 15 16]]\nCross-correlation used in CNNs:\n[[-5 -5 -5]\n [-5 -5 -5]\n [-5 -5 -5]]\nMax pool:\n[[ 6  8]\n [14 16]]\n",
+    "stderr": "",
+    "seconds": 0.828,
+    "source_sha256": "a5647b1dabd532cb9a6bcd66653c0dfddfd00b4a72d6eaaa09f59f7f212e7eaf"
+  },
+  {
+    "file": "chapter_04/section_4_5_1_recurrent_state.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "x: 1.0 hidden: [ 0.37994896 -0.19737532]\nx: 0.0 hidden: [0.16861127 0.01677562]\nx: -1.0 hidden: [-0.30408691  0.23431939]\nx: 0.5 hidden: [ 0.07126746 -0.09027512]\n",
+    "stderr": "",
+    "seconds": 0.828,
+    "source_sha256": "d3c98a39021ca13ac2ee6171752407bbefa32e6b598d0bdb02fff4f6e0164bab"
+  },
+  {
+    "file": "chapter_04/exercise_02_imbalanced_metrics.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Confusion: [[990   0]\n [ 10   0]]\nAccuracy: 0.99 Recall: 0.0 Precision: 0.0\n",
+    "stderr": "",
+    "seconds": 5.188,
+    "source_sha256": "ae2ad04af96d9cbc21fbed3175d036f8e514a01ed1152c495430addda884b0f6"
+  },
+  {
+    "file": "chapter_04/exercise_03_linear_layers.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "With biases: affine map; with zero biases: linear map.\n",
+    "stderr": "",
+    "seconds": 0.844,
+    "source_sha256": "bcbdcda324a43213a86ea377181a61d66f1e38e26ecdaff0a70911621ebbbdd2"
+  },
+  {
+    "file": "chapter_04/exercise_07_ranking_metrics.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Reciprocal ranks: [1.         0.33333333 0.2       ] MRR: 0.5111111111111111\nHits@1: 0.3333333333333333\nHits@3: 0.6666666666666666\nHits@5: 1.0\n",
+    "stderr": "",
+    "seconds": 0.828,
+    "source_sha256": "2c64bea9cb6400eb4f5eacbc4d8e2c29ce99f7601312e3e0005bdd5918066e91"
+  },
+  {
+    "file": "chapter_05/section_5_2_6_edge_operators.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "average [2.  1.5 2.5]\nHadamard [3. 2. 6.]\nweighted L1 [2. 1. 1.]\nweighted L2 [4. 1. 1.]\nconcatenation [1. 2. 3. 3. 1. 2.]\n",
+    "stderr": "",
+    "seconds": 0.734,
+    "source_sha256": "7012a36769a04ad44790a1c33ef9186cdba0c9b9c08e26a2e01e7711e9b2e77f"
+  },
+  {
+    "file": "chapter_05/exercise_01_psd_factorization.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Eigenvalues: [-1.  1.] PSD approximation: [[0.5 0.5]\n [0.5 0.5]] error: 1.0\nYY^T is PSD; unrestricted truncated SVD and PSD factorization are different constraints.\n",
+    "stderr": "",
+    "seconds": 0.703,
+    "source_sha256": "fefeb7d42112774951e2edcc79e8dc3b3c2424af4c9a9bc642090b359390b250"
+  },
+  {
+    "file": "chapter_05/exercise_06_node2vec_transition.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "p,q: 1.0 1.0 candidate probabilities: [0.33333333 0.33333333 0.33333333]\np,q: 0.25 1.0 candidate probabilities: [0.66666667 0.16666667 0.16666667]\np,q: 1.0 0.25 candidate probabilities: [0.16666667 0.16666667 0.66666667]\np,q: 1.0 4.0 candidate probabilities: [0.44444444 0.44444444 0.11111111]\n",
+    "stderr": "",
+    "seconds": 0.688,
+    "source_sha256": "e2ada19948a48fbd48f0bbb9f03ae519e0ace2f60d047aebdcb4f89d4b25569f"
+  },
+  {
+    "file": "chapter_05/exercise_08_infonce_temperature.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Temperature: 0.1 InfoNCE loss: 0.0025987822191204657\nTemperature: 0.5 InfoNCE loss: 0.38287390443540725\nTemperature: 1.0 InfoNCE loss: 0.6705852106527808\n",
+    "stderr": "",
+    "seconds": 0.687,
+    "source_sha256": "0d2b362881fc5134f13ee029f298fc13a44b21b988ec8f1b32cece55e1f48b90"
+  },
+  {
+    "file": "chapter_06/exercise_02_six_node_propagation.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Initial: [[1. 0.]\n [0. 0.]\n [0. 0.]\n [0. 0.]\n [0. 0.]\n [0. 1.]] One clamped step: [[1.  0. ]\n [0.5 0. ]\n [0.  0. ]\n [0.  0. ]\n [0.  0.5]\n [0.  1. ]]\n",
+    "stderr": "",
+    "seconds": 2.0,
+    "source_sha256": "75b43ce5818d0db9223ed4449c14785e7c07953211e00df94ed9f4516ca6bcc9"
+  },
+  {
+    "file": "chapter_06/exercise_06_alpha_sensitivity.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Alpha: 0.0 scores: [[1. 0.]\n [0. 0.]\n [0. 0.]\n [0. 0.]\n [0. 0.]\n [0. 1.]] labels: [0 0 0 0 0 1]\nAlpha: 0.2 scores: [[8.16496581e-01 1.71803594e-05]\n [1.16648444e-01 1.21483486e-04]\n [1.17838982e-02 1.19053817e-03]\n [1.19053817e-03 1.17838982e-02]\n [1.21483486e-04 1.16648444e-01]\n [1.71803594e-05 8.16496581e-01]] labels: [0 0 0 1 1 1]\nAlpha: 0.8 scores: [[0.33398501 0.0208537 ]\n [0.23685428 0.03686448]\n [0.11980956 0.06266961]\n [0.06266961 0.11980956]\n [0.03686448 0.23685428]\n [0.0208537  0.33398501]] labels: [0 0 0 1 1 1]\nAlpha: 0.99 scores: [[0.11607263 0.09191153]\n [0.1515246  0.13129549]\n [0.14195881 0.13526088]\n [0.13526088 0.14195881]\n [0.13129549 0.1515246 ]\n [0.09191153 0.11607263]] labels: [0 0 0 1 1 1]\n",
+    "stderr": "",
+    "seconds": 1.954,
+    "source_sha256": "15394fc8f35b8f46ea817c6e64b32e38afb581369c23d3209d352634663bde9a"
+  },
+  {
+    "file": "chapter_07/exercise_01_cycle_laplacian.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "A \n [[0. 1. 0. 1.]\n [1. 0. 1. 0.]\n [0. 1. 0. 1.]\n [1. 0. 1. 0.]]\nD \n [[2. 0. 0. 0.]\n [0. 2. 0. 0.]\n [0. 0. 2. 0.]\n [0. 0. 0. 2.]]\nL \n [[ 2. -1.  0. -1.]\n [-1.  2. -1.  0.]\n [ 0. -1.  2. -1.]\n [-1.  0. -1.  2.]]\nLsym \n [[ 1.  -0.5  0.  -0.5]\n [-0.5  1.  -0.5  0. ]\n [ 0.  -0.5  1.  -0.5]\n [-0.5  0.  -0.5  1. ]]\n",
+    "stderr": "",
+    "seconds": 1.984,
+    "source_sha256": "8993fd6689c25df76525cb766e5dd0b0e2125d2d71ff75c4a1c4b8d5516309e5"
+  },
+  {
+    "file": "chapter_07/exercise_02_heat_diffusion.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "t: 0.0 signal: [ 1.00000000e+00  1.17960672e-16 -2.46137466e-17 -7.88599390e-17\n  3.11125874e-17] energy: 0.9999999999999996\nt: 0.1 signal: [9.09221675e-01 8.63904399e-02 4.24411297e-03 1.40215966e-04\n 3.55602805e-06] energy: 0.6838161214364339\nt: 1.0 signal: [0.52377811 0.30851249 0.12206441 0.03590355 0.00974145] energy: 0.08921032361799791\nt: 10.0 signal: [0.20793651 0.20490477 0.19999968 0.19509503 0.19206401] energy: 6.649404378593815e-05\n",
+    "stderr": "",
+    "seconds": 2.5,
+    "source_sha256": "b109e76ebb86256a24c4962f933c2bc148792dadbd8d62ae30875e78b7b46169"
+  },
+  {
+    "file": "chapter_07/exercise_04_chebyshev.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Rescaled spectrum: [-1.         -0.78885438 -0.23606798  0.4472136   1.        ] T2 x: [1.6        1.61114562 2.         2.38885438 2.4       ]\n",
+    "stderr": "",
+    "seconds": 1.906,
+    "source_sha256": "8c57f6c76f97a0c76d31cc17da147a9762bf2fad64b8f94f15cc64c82304104d"
+  },
+  {
+    "file": "chapter_07/exercise_10_oversmoothing.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Step 1 distance to limit 7.211102550927978\nStep 5 distance to limit 3.477576461674373\nStep 25 distance to limit 0.0907092897970981\nStep 200 distance to limit 9.828026322081343e-14\n",
+    "stderr": "",
+    "seconds": 1.891,
+    "source_sha256": "160e9b2c105ccbf70ee9b17dd13e2cd691b60559049eb1560af81a858306c210"
+  },
+  {
+    "file": "chapter_07/exercise_16_contrastive_views.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Random edge-drop view: [(0, 1), (0, 7), (1, 2), (2, 3), (4, 5), (5, 6), (6, 7)]\nInduced view: [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]\nPositive node pairs: [(0, 0), (1, 1), (2, 2), (3, 3), (4, 4), (5, 5)]\nNegatives: distinct node IDs, subject to false-negative caveat.\n",
+    "stderr": "",
+    "seconds": 1.968,
+    "source_sha256": "18f191cb607addf036ca9f9b3141af6600b1b2290654a1146605114a3991c87d"
+  },
+  {
+    "file": "chapter_08/section_8_1_4_reduced_egonet.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Egonet: ['A', 'B', 'C', 'D', 'E'] density: 0.25\nReduced: ['A', 'B', 'C'] density: 0.5\n",
+    "stderr": "",
+    "seconds": 1.594,
+    "source_sha256": "dadccf2d164fbcc9753dbdcf76264096b3b229ae5bd7181308cb0328f33cf6b3"
+  },
+  {
+    "file": "chapter_08/section_8_3_4_link_scores.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "('A', 'E', 2, 0.4, 1.631586747071319)\n('D', 'B', 2, 0.5, 1.631586747071319)\n('D', 'E', 2, 0.4, 1.631586747071319)\n('F', 'C', 2, 0.4, 1.631586747071319)\n('D', 'G', 1, 0.2, 0.9102392266268373)\n('F', 'A', 1, 0.2, 0.9102392266268373)\n('F', 'B', 1, 0.2, 0.7213475204444817)\n('F', 'H', 1, 0.3333333333333333, 0.9102392266268373)\n('G', 'B', 1, 0.2, 0.7213475204444817)\n('G', 'C', 1, 0.16666666666666666, 0.7213475204444817)\n('H', 'E', 1, 0.25, 0.9102392266268373)\n('D', 'H', 0, 0.0, 0)\n('G', 'A', 0, 0.0, 0)\n('H', 'A', 0, 0.0, 0)\n('H', 'B', 0, 0.0, 0)\n('H', 'C', 0, 0.0, 0)\n",
+    "stderr": "",
+    "seconds": 1.891,
+    "source_sha256": "5185e48d50c23b553a1b26d03ec97a6b68a93baa5f02b3a1130a2a4beb7b1d5b"
+  },
+  {
+    "file": "chapter_08/section_8_3_13_temporal_link_evaluation.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Cutoff: 2 Train edges: [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)] Candidates: [(0, 2), (0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 4), (2, 5), (3, 5)]\nROC AUC: 0.875 Average precision: 0.5\n",
+    "stderr": "",
+    "seconds": 5.781,
+    "source_sha256": "7136355bfd89a79ed2f00e2ac57d776ce4d5d5d58ee939e7a6d27acf4f7abe28"
+  },
+  {
+    "file": "chapter_08/section_8_2_gnn_transactions.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Synthetic held-out nodes: [39, 21, 18, 1, 14, 8, 27, 34, 6, 0, 5, 38, 49, 45, 59, 50, 51, 47]\nAverage precision: 0.8551587301587301\nConfusion matrix at fixed 0.5 threshold: [[10  2]\n [ 2  4]]\nTransductive observed topology; held-out labels never used for fitting.\n",
+    "stderr": "",
+    "seconds": 15.0,
+    "source_sha256": "fc9b906363d562cdd1a0e6835c1f8e59ea616fb25e81cf93cde3d583d6fbaf10"
+  },
+  {
+    "file": "chapter_08/section_8_3_6_gnn_link_prediction.py",
+    "passed": true,
+    "returncode": 0,
+    "stdout": "Synthetic future positives: 21\nROC AUC: 0.5691609977324263\nAverage precision: 0.5722624350541095\nBalanced sampled test negatives; this is not population fraud/coauthorship performance.\n",
+    "stderr": "",
+    "seconds": 14.734,
+    "source_sha256": "98ed6e3cb692207363d9271433c2ef35c1aaa6e8eb084638478deb4ed99689f0"
+  }
+]

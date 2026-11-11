@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+chapter_*/outputs/
+*.log
+*.aux
+*.out
+*.tmp
+
+validation/chapter_*.json
